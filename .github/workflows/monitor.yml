@@ -2,7 +2,7 @@ name: monitor
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '10,20 * * * *'
 
 jobs:
   tesnet_bridger_roller_monitor:
